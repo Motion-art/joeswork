@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:joejoe/home.dart';
 import 'package:joejoe/orders.dart';
+import 'package:joejoe/profile.dart';
 import 'package:joejoe/wallet.dart';
 
 void main() {
@@ -30,7 +31,7 @@ class _CustomNavBarState extends State<CustomNavBar> {
     Home2(),
     Orders(),
     Wallet(),
-    Center(child: Text('Profile', style: TextStyle(fontSize: 24, color: Colors.white))),
+    EasyLifeApp(),
   ];
 
   void _onItemTapped(int index) {
